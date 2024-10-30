@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -16,10 +18,18 @@ body {
   overflow-x: hidden;
 }
 
+header {
+  font-family: 'Itim', sans-serif;
+}
+
+button {
+  font-family: 'Itim', sans-serif;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Itim', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
